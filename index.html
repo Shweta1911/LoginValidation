@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <label class="center">Login Page</label><br><br>
+
+        <form action="" name="myForm">
+            <label class="padd" >Firstname:</label>
+            <input type="text" id="fname" oninput="check1()">
+            <label for="" id="flabel"></label>
+            <br><br>
+            <label class="padd" >Lastname:</label>
+            <input type="text" id="lname" oninput="check2()">
+            <label for="" id="llabel"></label>
+            <br><br>
+            <label class="padd" >Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="email" oninput="check3()">
+            <label for="" id="elabel"></label>
+            <br><br>
+            <label class="padd">Password:</label>
+            <input type="text" id="password" oninput="pcheck()">
+            <label id="plabel"></label>
+            <br><br>
+            <br>
+            <button  onclick="onsubmitt()">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
